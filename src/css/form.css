@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 200px;
+  width: 100%;
+}
+
+.input {
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 5px;
+}
+
+.btn-submit {
+  width: 100px;
+  height: 45px;
+  color: #fff;
+  background-color: #11a34e;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.error {
+  color: rgb(228, 39, 39);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  height: 30px;
+  text-align: center;
+}
+
+/* turn off number input inner spinner */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
